@@ -14,7 +14,7 @@ The dataset includes the following tables:
 The analysis consists of 10 SQL queries that address specific questions about the data
 
 ## Questions Solved
-[questions](10_questions.png)
+[Questions](10_questions.jpg)
 
 ## The solution Queries
 #1) Retrieve the total number of orders placed<br>
