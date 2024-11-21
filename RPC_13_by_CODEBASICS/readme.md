@@ -10,7 +10,7 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 - **Objective**: Calculate each city's percentage contribution to the total number of trips.
 - **Output**: `city_name, total_trips, avg_fare_per_km, avg_fare_per_trip, percent_contribution`
 - **SQL Script**: [1_city_level_fare_and_trip_summary_report.sql](files/1_city_level_fare_and_trip_summary_report.sql)
-- **Output**: [AdHoc-1](files/adhoc1.png)
+- **Output**: ![AdHoc-1](files/adhoc1.png)
 
 ---
 
@@ -26,7 +26,7 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 - **Objective**: Calculate the percentage distribution of repeat passengers based on the number of trips they have taken in each city.
 - **Output**: `city_name, 2-trips, 3-trips, ... 10-trips`
 - **SQL Script**: [3_city_level_repeat_passenger_trip_frequency_report.sql](files/3_city_level_repeat_passenger_trip_frequency_report.sql)
-- - **Output**: [AdHoc-3](files/adhoc3.png)
+- - **Output**: ![AdHoc-3](files/adhoc3.png)
 
 ---
 
@@ -34,7 +34,7 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 - **Objective**: Categorize cities into "Top 3" or "Bottom 3" based on the number of new passengers.
 - **Output**: `city_name, total_new_passengers, city_category`
 - **SQL Script**: [4_cities_with_highest_and_lowest_total_new_passengers.sql](files/4_cities_with_highest_and_lowest_total_new_passengers.sql)
-- - **Output**: [AdHoc-4](files/adhoc4.png)
+- - **Output**: ![AdHoc-4](files/adhoc4.png)
 
 ---
 
@@ -42,7 +42,7 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 - **Objective**: For each city, find the month with the highest revenue, its value, and the percentage contribution to the city’s total revenue.
 - **Output**: `city_name, highest_revenue_month, revenue, percent_contribution`
 - **SQL Script**: [5_month_with_highest_revenue_for_each_city.sql](files/5_month_with_highest_revenue_for_each_city.sql)
-- - **Output**: [Adhoc-5](files/adhoc5.png)
+- - **Output**: ![Adhoc-5](files/adhoc5.png)
 
 ---
 
