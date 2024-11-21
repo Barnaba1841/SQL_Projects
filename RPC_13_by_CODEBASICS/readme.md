@@ -9,10 +9,7 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 ### Business Request -1. **City Level Fare and Trip Summary Report**
 - **Objective**: Calculate each city's percentage contribution to the total number of trips.
 - **Output**: `city_name, total_trips, avg_fare_per_km, avg_fare_per_trip, percent_contribution`
-- **SQL Script**: [1_city_level_fare_and_trip_summary_report.sql](files/1_city_level_fare_and_trip_summary_report.sql)
-  
-  ![1_city_level_fare_and_trip_summary_report.sql](files/1_city_level_fare_and_trip_summary_report.sql)
-  
+- **SQL Script**: [1_city_level_fare_and_trip_summary_report.sql](files/1_city_level_fare_and_trip_summary_report.sql)  
 - **Output**: [AdHoc-1](files/adhoc1.png)
 
 ---
