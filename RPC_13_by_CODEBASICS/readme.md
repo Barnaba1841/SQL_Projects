@@ -61,31 +61,31 @@ This repository showcases solutions to **Adhoc Requests** tasks as part of the C
 ## Trips Database : 
 `trips.db`
 
-dim_city: Contains city information.
+dim_city: Contains city information.  
 Fields: `city_id, city_name`
 
-dim_date: Holds date-related details, such as month and type of day.
+dim_date: Holds date-related details, such as month and type of day.  
 Fields: `date, start_of_month, month_name, day_type`
 
-dim_repeat_trip_distribution: Stores data on repeat trips by month and city.
+dim_repeat_trip_distribution: Stores data on repeat trips by month and city.  
 Fields: `month, city_id, trip_count, repeat_passenger_count`
 
-fact_passenger_summary: Summarizes passenger data by month and city.
+fact_passenger_summary: Summarizes passenger data by month and city.  
 Fields: `month, city_id, total_passengers, new_passengers, repeat_passengers`
 
-fact_trips: Contains detailed trip records, including passenger and driver ratings.
+fact_trips: Contains detailed trip records, including passenger and driver ratings.  
 Fields: `trip_id, date, city_id, passenger_type, distance_travelled_km, fare_amount, passenger_rating, driver_rating`
 
 ## Targets Database :
 `targets_db`
 
-city_target_passenger_rating: Contains the target average passenger rating for each city.
+city_target_passenger_rating: Contains the target average passenger rating for each city.  
 Fields: `city_id, target_average_passenger_rating`
 
-monthly_target_new_passengers: Provides the target number of new passengers per month for each city.
+monthly_target_new_passengers: Provides the target number of new passengers per month for each city.  
 Fields: `month, city_id, target_new_passengers`
 
-monthly_target_trips: Specifies the total target trips for each city by month.
+monthly_target_trips: Specifies the total target trips for each city by month.  
 Fields: `month, city_id, total_target_trips`
 
 
